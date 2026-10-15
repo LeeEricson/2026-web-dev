@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout - Flexbox</title>
+</head>
+
+<style>
+    .flexbox-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #box1 {
+        flex: 50;
+        background-color: lightcoral;
+    }
+
+    #box2 {
+        flex: 25;
+        background-color:rgb(226, 226, 129);
+    }
+
+    #box3 {
+        flex: 25;
+        background-color: rgb(74, 202, 202);
+    }
+
+    .box-common {
+        color:whitesmoke;
+        text-align: center;
+        border: 5px solid whitesmoke;
+    }
+
+    #box1:hover, #box2:hover, #box3:hover {
+        background-color: whitesmoke;
+    }
+
+    @media (max-width: 500px) {
+        .flexbox-container {
+            flex-direction: column;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="flexbox-container">
+        <div id="box1" class="box-common">
+            <p>Box 1</p>
+        </div>
+
+        <div id="box2" class="box-common">
+            <p>Box 2</p>
+        </div>
+
+        <div id="box3" class="box-common">
+            <p>Box 3</p>
+        </div>
+    </div>
+</body>
+
+</html>

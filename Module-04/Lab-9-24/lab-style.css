@@ -1,0 +1,70 @@
+/* Make It Beautiful:
+
+Use CSS to style the webpage and make it visually appealing.
+Apply styles to:
+Headers and paragraphs for unique fonts, colors, and alignments.
+The table for better readability (e.g., borders, background colors, padding).
+The unordered list with custom markers or styles.
+The footer for a polished and consistent look.
+Add Personal Touches:
+
+Experiment with background colors, gradients, or images.
+Use hover effects on links or table rows for interactivity.
+Advanced Ideas:
+
+Add transitions or animations (e.g., hover effects, fade-ins).
+Create a responsive design that looks great on mobile and desktop devices. (We will do this in the next module) */
+
+body {
+    background-color:darksalmon;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    text-align:center;
+}
+
+td:hover {
+    font-weight: bold;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    text-align: left;
+}
+
+p, table, li {
+    font-family:monospace;
+    color:darkred;
+    text-align:left;
+}
+
+ul {
+    list-style:lower-roman;
+}
+
+table, td, tr, th {
+    text-align: center;
+}
+
+table {
+    border: 2px rgb(163, 76, 91) solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, tr, td{
+    border: 2px rgb(163, 76, 91) solid; 
+    color: rgb(163, 76, 91);
+}
+
+#tabhead {
+    text-align: center;
+    color: rgb(163, 76, 91);
+}
+
+footer p {
+    font-weight: bold;
+    text-align: center;
+}
